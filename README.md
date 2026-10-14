@@ -1,9 +1,30 @@
 # hot100-coach
 
-> 一个跑在 AI 编程助手里的 LeetCode Hot 100 刷题教练 Skill。
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-3776AB.svg)](https://www.python.org/)
+
+**给 AI 编程助手装一个 LeetCode Hot 100 刷题教练：一句话出题 → 图解讲模板 → 你写核心代码 → 对拍揪出隐蔽 bug → 自动导卡进 Anki。**
+
 > 按代码随想录专题顺序出题 → labuladong 思维模板讲解 → 带 TODO 的代码骨架 → 本地判题 + 暴力对拍 → 登记进度 → 生成 Anki 卡组。
 
 把「刷题」从「看题解抄一遍」变成「有教练盯着的刻意练习」。
+
+## 效果预览
+
+```
+你  > 刷题
+AI  > 【数组 + 双指针 3/13】283. 移动零（简单）
+      给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
+      示例：输入 [0,1,0,3,12] → 输出 [1,3,12,0,0]
+      约束：1 <= nums.length <= 10^4 ...
+      （快慢指针图解）
+      核心模板：慢指针指向「已处理的非零序列末尾」，快指针找非零值。
+      骨架已生成 solutions/0283_move_zeroes.py，TODO 留给你。
+
+你  > 我写完了
+AI  > 本地 8 个用例通过；随机对拍 1000 组：通过。
+      已登记 done，Anki 卡片已导出（正面含完整题面）。
+```
 
 ## 为什么做这个
 
